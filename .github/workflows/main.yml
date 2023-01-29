@@ -24,4 +24,4 @@ jobs:
     - name: Build and Push the Docker image
       run:  | 
        docker build . -t nurmlau.azurecr.io/dev1:${{ github.run_id }}
-       docker push nurmlau.azurecr.io/samplewebapp:${{ github.run_id }} 
+       docker push nurmlau.azurecr.io/dev1:${{ github.run_id }} 
